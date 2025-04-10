@@ -12,8 +12,6 @@ proxy:
   configmap:
     ## KEY: "value"
     APP_ENV: "dev"
-    WORDPRESS_DB_HOST: "wp-database.wpapp.svc.cluster.local"
-    WORDPRESS_DB_NAME: "wordpress"
-    WORDPRESS_DB_USER: "wordpress"
+
   containerPorts:
       http: 80
