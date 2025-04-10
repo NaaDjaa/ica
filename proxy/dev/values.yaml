@@ -1,11 +1,11 @@
-wp:
-  name: wpapp
+proxy:
+  name: proxy 
   labels:
-    app: wp
+    app: proxy
     env: dev
-    stack: wordpress
+    stack: proxy
   image:
-    repository: wordpress
+    repository: nginx
     tag: latest
     pullPolicy: Always
   replicas: 3
