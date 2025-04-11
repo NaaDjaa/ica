@@ -5,10 +5,10 @@ proxy:
     env: dev
     stack: proxy
   image:
-    repository: nginx
+    repository: naadjaa/icaimage
     tag: latest
     pullPolicy: Always
-  replicas: 3
+  replicas: 1
   configmap:
     ## KEY: "value"
     APP_ENV: "dev"
